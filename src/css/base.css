@@ -30,3 +30,39 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.bg-img{
+  background-image: url('../img/cat.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container{
+  display: flex;
+  gap: 30px;
+}
+
+.link-container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 120px;
+  background-color: #E7AF6A;
+  border: 1px solid #E7AF6A;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-container a:hover{
+  background-color: #B1743D;
+  border: 1px solid #B1743D;
+  color: white;
+  transition: all 0.3s;
+}
